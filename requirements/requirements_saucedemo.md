@@ -8,6 +8,10 @@
 ### R1.2 – Login with invalid credentials
 - An appropriate error message shall be displayed when invalid credentials are entered.
 
+### R1.3 – Login with locked out user
+- The user shall not be able to log in when the account is locked.
+- An appropriate error message shall be displayed.
+  
 ---
 
 ## R2 – Product Overview
@@ -18,6 +22,13 @@
 ### R2.2 – Product information
 - Each product shall display name, price, image, and add-to-cart button.
 
+### R2.3 – Product sorting
+- User shall be able to sort products by:
+  - Name (ascending)
+  - Name (descending)
+  - Price (low to high)
+  - Price (high to low)
+  
 ---
 
 ## R3 – Shopping Cart
@@ -38,8 +49,11 @@
 ### R4.1 – Enter checkout information
 - User shall be able to enter valid checkout information.
 
-### R4.2 – Complete checkout
+### R4.2 – Validate checkout information
+- An appropriate error message shall be displayed if required checkout fields are empty.
+
+### R4.3 – Complete checkout
 - User shall be able to complete the checkout process with valid information.
 
-### R4.3 – Order confirmation
+### R4.4 – Order confirmation
 - An order confirmation shall be displayed after successful checkout.
