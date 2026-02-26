@@ -1,0 +1,27 @@
+{
+  "name": "software-testing",
+  "version": "1.0.0",
+  "description": "This repository showcases my practical experience in software testing, including manual test case design, bug reporting and basic test automation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pbeier-testing/software-testing.git"
+  },
+  "keywords": [],
+  "author": "PBeier",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Pbeier-testing/software-testing/issues"
+  },
+  "homepage": "https://github.com/Pbeier-testing/software-testing#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.3"
+  }
+}
