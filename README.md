@@ -1,7 +1,7 @@
-# Software-testing
-
+# Software Testing Portfolio
 This repository showcases my practical experience in software testing,
-including manual test case design, bug reporting and basic test automation.
+demonstrating a structured and process-oriented approach to manual testing,
+test design, defect reporting, and basic test automation.
 
 ## Project Goal
 The goal of this project is to demonstrate the application of basic test activities, including:
@@ -30,6 +30,22 @@ Selected core functionalities of the application are tested, including:
 
 Performance and security are **out of scope** for this project.
 
+## Test Approach
+
+### Manual Testing
+- Manual testing was performed based on documented requirements using black-box test design techniques
+- Basic test design techniques were applied (e.g. equivalence partitioning, boundary value analysis)
+- Test execution results and defects were documented in Markdown format
+
+### Test Automation
+- End-to-end tests were implemented using **Playwright (JavaScript)**
+- Tests follow the **Page Object Model (POM)** pattern
+- Automation focuses on the main user flows:
+  - Login
+  - Product overview
+  - Shopping cart
+  - Checkout process
+
 ## Repository Structure
 Test artifacts are organized according to the test process:
 - `requirements/` – captured requirements for the test object
@@ -42,4 +58,4 @@ Test artifacts are organized according to the test process:
 - `automation/` – basic automation scripts
 
 ## Notes
-This project is for demonstration purposes.
+This project is for demonstration purposes and does not represent a complete test coverage of the application.
